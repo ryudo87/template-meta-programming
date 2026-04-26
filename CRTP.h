@@ -94,9 +94,9 @@ public:
     void implement() { std::cout << "D2::implement\n"; }
 };
     // Usage
-std::vector<std::unique_ptr<IBase>> vec;
-vec.push_back(std::make_unique<D1>());
-vec.push_back(std::make_unique<D2>());
+// std::vector<std::unique_ptr<IBase>> vec;
+// vec.push_back(std::make_unique<D1>());
+// vec.push_back(std::make_unique<D2>());
 
 
 //2. Using std::variant (Type-Safe Union)
